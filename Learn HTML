@@ -1,0 +1,23 @@
+//18/03/3024
+//Started learning HTML
+//Search Engine Optimization (SEO)
+//<h1></h1>, <h2></h2>
+//<p></P>
+//<main></main>, This is called nesting. Nested elements should be placed two spaces further to the right of the element they are nested in. This spacing is called indentation and it is used to make HTML easier to read.
+//<img>, <img src="https://xx.jpg">, self-closing tag t oadd image elemen.
+//<alt>,<img src=".jpg" alt="xxxx">The alt attribute value is to describes the content of the image. If the image fails to load, this text will be displayed instead, 
+  providing context to users about the image even if they can't see it visually. Additionally, screen readers will read out this text to users who rely on them to navigate the web(SEO).
+//<a href='http://.com>click here</a>, anchor element to add a link to a paragraph
+
+<html>
+  <body>
+        <main>
+          <h1>CatPhotoApp</h1>// HTML opening tag <h1> and closing tag </h1>// is (h1) is the element
+          <h2>Cat Photos</h2>// (h2) has a lower importace than (h1)
+          <!-- TODO: Add link to cat photos-->// syntax (<!--) (-->)  leave messages without affecting the browser display. It also allows you to make code inactive. 
+          <p>See more <a href="https://freecatphotoapp.com">cat photos</a> in our gallery.</p>
+          <a href="https://freecatphotoapp.com">link to cat pictures</a>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back">
+        </main>
+  </body>
+</html>
