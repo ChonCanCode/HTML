@@ -31,9 +31,12 @@
 //<html lang="en">
 //<!DOCTYPE html>, All pages should begin with <!DOCTYPE html>. This special string is known as a declaration and ensures the browser tries to meet industry-wide specifications.
 //<head><meta charset="utf-8">, Inside the head element, nest a meta element with an attribute named charset. Set to the value to utf-8 which tells the browser how to encode characters for the page.
+
+
 <!DOCTYPE html>
 <html lang="en">
  <head>
+    <meta charset="utf-8">
     <title>CatPhotoApp</title>
   </head>
   <body>
