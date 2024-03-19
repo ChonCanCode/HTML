@@ -8,16 +8,18 @@
 //<alt>,<img src=".jpg" alt="xxxx">The alt attribute value is to describes the content of the image. If the image fails to load, this text will be displayed instead, 
   providing context to users about the image even if they can't see it visually. Additionally, screen readers will read out this text to users who rely on them to navigate the web(SEO).
 //<a href='http://.com>click here</a>, anchor element to add a link to a paragraph
-//target=, this is called 'target' attribute
+//target=, this is called the 'target' attribute
 
 <html>
   <body>
         <main>
           <h1>CatPhotoApp</h1>// HTML opening tag <h1> and closing tag </h1>// is (h1) is the element
-          <h2>Cat Photos</h2>// (h2) has a lower importace than (h1)
+        <section>
+          <h2>Cat Photos</h2>// (h2) has a lower importance than (h1)
           <!-- TODO: Add link to cat photos-->// syntax (<!--) (-->)  leave messages without affecting the browser display. It also allows you to make code inactive. 
           <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
           <a href="https://freecatphotoapp.com"><img  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
+        </section>
         </main>
   </body>
 </html>
