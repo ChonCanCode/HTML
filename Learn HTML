@@ -1,4 +1,4 @@
-//18/03/3024
+//18/03/2024
 //Started learning HTML
 //Search Engine Optimization (SEO)
 //<h1></h1>, <h2></h2>
@@ -9,6 +9,22 @@
   providing context to users about the image even if they can't see it visually. Additionally, screen readers will read out this text to users who rely on them to navigate the web(SEO).
 //<a href='http://.com>click here</a>, anchor element to add a link to a paragraph
 //target=, this is called the 'target' attribute
+//19/03/2024
+//<section> </section>,  readability and maintainability
+//<ul></ul>, It is used to create a list of items where the order of the items is not important. Each item in the list is typically represented by a <li> (list item) element.
+//<li></li>, used within <ul></ul> for each item inside
+//term (attribute), herf=, src=, title=
+//term (element), has open and close <a></a>
+//<ol></ol>represents an ordered list. It is used to create a list of items where each item is numbered or ordered sequentially. Each item in the list is typically represented by a <li> (list item) element.
+//<form action="https:"></form>
+//<input>, <input type="text">
+//type=,
+//name=,
+//placeholder=,
+//require=,
+//<button></button>, clickable button
+//<label><input type="radio"> Indoor</label>
+//id=, used to identify specific HTML elements
 
 <html>
   <body>
@@ -20,6 +36,27 @@
           <p>See more <a href="https://freecatphotoapp.com" target="_blank">cat photos</a> in our gallery.</p>
           <a href="https://freecatphotoapp.com"><img  src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/relaxing-cat.jpg" alt="A cute orange cat lying on its back."></a>
         </section>
+        <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>cat nip</li>
+          <li>laser pointers</li>
+          <li>lasagna</li>
+        </ul>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg"  alt="A slice of lasagna on a plate.">
+        </section>
+         <figure>
+          <img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/lasagna.jpg" alt="A slice of lasagna on a plate.">
+          <figcaption>Cats love lasagna.</figcaption>
+        <ol>
+          <li>flea treatment</li>
+          <li>thunder</li>
+          <li>other cats</li>
+        </ol>
+        <figure><img src="https://cdn.freecodecamp.org/curriculum/cat-photo-app/cats.jpg" alt="Five cats looking around a field.">
+          <figcaption>Cats <strong>hate</strong> other cats.</figcaption></figure>
+        </figure>
         </main>
   </body>
 </html>
